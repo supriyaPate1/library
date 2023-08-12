@@ -1,0 +1,54 @@
+.LoginDiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+}
+.login{
+    width: 80%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin: auto;  
+    border-radius: 5px; 
+    background-color: white;
+}
+.loginTable a{
+    font-size: 12px;
+    color: rgb(34, 90, 155);
+}
+.loginTable input{
+   margin-bottom: 10%; 
+}
+.loginTable button{
+    padding:2%;
+    border-radius: 3px;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+.tabInp{
+  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 3px;
+  border: 1px solid rgb(34, 90, 155);
+}
+#member{
+    font-size: 12px;
+}
+#internet{
+    color:  rgb(34, 90, 155);
+}
+.cross{
+    float: right;
+    margin-right: 2%;
+    margin-top: -10px;
+}
+.cross a{
+    text-decoration: none;
+}
+.cross button{
+    cursor: pointer;
+}

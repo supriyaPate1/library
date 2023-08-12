@@ -1,0 +1,127 @@
+.detailMain {
+  width: 80%;
+  margin: auto;
+  opacity: 0.9;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+  background-color: var(--bgc);
+  color:white;
+  margin-top: 1%;
+}
+.themeD {
+  width: 100%;
+  background-color: rgb(116, 120, 122);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+.gobck {
+  width: 10%;
+  cursor: pointer;
+  text-align: center;
+}
+.gobck button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  font-size: 1vw;
+  background-color: aliceblue;
+  border: 1px solid white;
+  color: black;
+}
+.midspace {
+  width: 80%;
+}
+.setThe {
+  width: 10%;
+  cursor: pointer;
+}
+.setThe button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1vw;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: aliceblue;
+  color: black;
+}
+.dispDetails {
+  display: flex;
+}
+.imageDiv {
+  width: 15%;
+  text-align: center;
+  justify-items: center;
+}
+.imageDiv img {
+  width: 90%;
+  padding-top: 1%;
+}
+.detailText {
+  width: 85%;
+  margin: auto;
+}
+.btns {
+  text-align: center;
+}
+.btns button {
+  width: 30%;
+  padding: 1%;
+  border-radius: 7px;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+:root {
+  --bckimg: url("https://media.gettyimages.com/photos/empty-wooden-tables-in-public-library-picture-id1193273154?s=170667a");
+}
+.change {
+  --bckgColor: black;
+  --bckimg: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShKHAKbNFhS1BFrpraWOx25MXUUx08JW2HRA&usqp=CAU");
+  transition: all 0.1s;
+}
+#borrowD {
+  border: 1px solid rgb(29, 122, 165);
+  color: white;
+  background-color: rgb(29, 122, 165);
+}
+#pre {
+  border: 1px solid rgb(29, 122, 165);
+  color: rgb(29, 122, 165);
+  background-color: white;
+}
+#wantTo {
+  border: 1px solid rgb(22, 197, 45);
+  color: white;
+  background-color: rgb(22, 197, 45);
+}
+.bookD {
+  display: flex;
+  width: 96%;
+  font-size: 1.3vw;
+  margin: auto;
+  opacity: 1;
+  background-color: rgb(96, 97, 182);
+  justify-content: space-around;
+  text-align: center;
+}
+.textVal {
+  font-size: 1vw;
+}
+@media screen and (max-width: 900px) {
+  .dispDetails {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .imageDiv {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+}
